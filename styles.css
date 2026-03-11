@@ -20,7 +20,7 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 padding:50px;
-background:#f8f8f8;
+background:pink;
 }
 
 .hero img{
@@ -61,7 +61,7 @@ background:orange;
 }
 
 .bag{
-background:pink;
+background:#ff4d6d;
 }
 
 .shoes{
@@ -118,4 +118,37 @@ padding:10px 20px;
 background:#ff4d6d;
 color:white;
 border:none;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.product-container{
+flex-direction:column;
+}
+
+.category-container{
+flex-wrap:wrap;
+}
+
+}
+
+@media(max-width:640px){
+
+.category-container{
+flex-direction:column;
+}
+
+.newsletter input,
+.newsletter button{
+display:block;
+margin:10px auto;
+}
+
 }
