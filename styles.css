@@ -67,3 +67,34 @@ background:pink;
 .shoes{
 background:blue;
 }
+
+/* Products */
+
+.products{
+padding:50px;
+}
+
+.product-container{
+display:flex;
+gap:20px;
+}
+
+.card{
+flex:1;
+text-align:center;
+padding:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+border-radius:10px;
+}
+
+.card img{
+width:150px;
+}
+
+.card button{
+background:black;
+color:white;
+border:none;
+padding:10px 20px;
+margin-top:10px;
+}
