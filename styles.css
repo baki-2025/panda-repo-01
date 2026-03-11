@@ -35,4 +35,35 @@ padding:10px 20px;
 border-radius:5px;
 }
 
+/* Categories */
 
+.categories{
+padding:50px;
+}
+
+.category-container{
+display:flex;
+gap:20px;
+}
+
+.category{
+flex:1;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+border-radius:10px;
+color:white;
+}
+
+.watch{
+background:orange;
+}
+
+.bag{
+background:pink;
+}
+
+.shoes{
+background:blue;
+}
