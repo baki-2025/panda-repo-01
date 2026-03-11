@@ -98,3 +98,24 @@ border:none;
 padding:10px 20px;
 margin-top:10px;
 }
+
+/* Newsletter */
+
+.newsletter{
+background:#fff4f4;
+padding:60px;
+text-align:center;
+}
+
+.newsletter input{
+padding:10px;
+width:250px;
+margin-top:10px;
+}
+
+.newsletter button{
+padding:10px 20px;
+background:#ff4d6d;
+color:white;
+border:none;
+}
